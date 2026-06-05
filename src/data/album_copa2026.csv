@@ -1,0 +1,995 @@
+id;nome;pais
+1;SOMOS26 00 — We Are 26;Somos 26
+2;FWC 1;Copa 2026
+3;FWC 2;Copa 2026
+4;FWC 3;Copa 2026
+5;FWC 4;Copa 2026
+6;FWC 5;Bola e PaísesSede
+7;FWC 6;Bola e PaísesSede
+8;FWC 7;Bola e PaísesSede
+9;FWC 8;Bola e PaísesSede
+10;Escudo México;México
+11;Luis Malagón;México
+12;Johan Vásquez;México
+13;Jorge Sánchez;México
+14;César Montes;México
+15;Jesús Gallardo;México
+16;Israel Reyes;México
+17;Diego Lainez;México
+18;Carlos Rodríguez;México
+19;Edson Álvarez;México
+20;Orbelín Pineda;México
+21;Marcel Ruiz;México
+22;Foto do Time;México
+23;Érick Sánchez;México
+24;Hirving Lozano;México
+25;Santiago Giménez;México
+26;Raúl Jiménez;México
+27;Alexis Vega;México
+28;Roberto Alvarado;México
+29;César Huerta;México
+30;Escudo Coreia do Sul;Coreia do Sul
+31;Hyeon-woo Jo;Coreia do Sul
+32;Seung-Gyu Kim;Coreia do Sul
+33;Min-jae Kim;Coreia do Sul
+34;Yu-min Cho;Coreia do Sul
+35;Young-woo Seol;Coreia do Sul
+36;Han-beom Lee;Coreia do Sul
+37;Tae-seok Lee;Coreia do Sul
+38;Myung-jae Lee;Coreia do Sul
+39;Jae-sung Lee;Coreia do Sul
+40;In-beom Hwang;Coreia do Sul
+41;Kang-in Lee;Coreia do Sul
+42;Foto do Time;Coreia do Sul
+43;Seung-ho Paik;Coreia do Sul
+44;Jens Castrop;Coreia do Sul
+45;Dong-gyeong Lee;Coreia do Sul
+46;Gue-sung Cho;Coreia do Sul
+47;Heung-min Son;Coreia do Sul
+48;Hee-chan Hwang;Coreia do Sul
+49;Hyeon-Gyu Oh;Coreia do Sul
+50;Escudo Rep. Tcheca;Rep Tcheca
+51;Matěj Kovář;Rep Tcheca
+52;Jindřich Staněk;Rep Tcheca
+53;Ladislav Krejčí;Rep Tcheca
+54;Vladimír Coufal;Rep Tcheca
+55;Jaroslav Zelený;Rep Tcheca
+56;Tomáš Holeš;Rep Tcheca
+57;David Zima;Rep Tcheca
+58;Michal Sadílek;Rep Tcheca
+59;Lukáš Provod;Rep Tcheca
+60;Lukáš Červ;Rep Tcheca
+61;Tomáš Souček;Rep Tcheca
+62;Foto do Time;Rep Tcheca
+63;Pavel Šulc;Rep Tcheca
+64;Matěj Vydra;Rep Tcheca
+65;Vasil Kušej;Rep Tcheca
+66;Tomáš Chorý;Rep Tcheca
+67;Václav Černý;Rep Tcheca
+68;Adam Hložek;Rep Tcheca
+69;Patrik Schick;Rep Tcheca
+70;Escudo África do Sul;África do Sul
+71;Ronwen Williams;África do Sul
+72;Sipho Chaine;África do Sul
+73;Aubrey Modiba;África do Sul
+74;Samukele Kabini;África do Sul
+75;Mbekezeli Mbokazi;África do Sul
+76;Khulumani Ndamane;África do Sul
+77;Siyabonga Ngezana;África do Sul
+78;Khuliso Mudau;África do Sul
+79;Nkosinathi Sibisi;África do Sul
+80;Teboho Mokoena;África do Sul
+81;Thalente Mbatha;África do Sul
+82;Foto do Time;África do Sul
+83;Bathuisi Aubaas;África do Sul
+84;Yaya Sithole;África do Sul
+85;Sipho Mbule;África do Sul
+86;Lyle Foster;África do Sul
+87;Ioraam Rayners;África do Sul
+88;Mohau Nkota;África do Sul
+89;Oswin Appolis;África do Sul
+90;Escudo Canadá;Canadá
+91;Dayne St. Clair;Canadá
+92;Alphonso Davies;Canadá
+93;Alistair Johnston;Canadá
+94;Samuel Adekugbe;Canadá
+95;Richie Laryea;Canadá
+96;Derek Cornelius;Canadá
+97;Moïse Bombito;Canadá
+98;Kamal Miller;Canadá
+99;Stephen Eustáquio;Canadá
+100;Ismaël Koné;Canadá
+101;Jonathan Osorio;Canadá
+102;Foto do Time;Canadá
+103;Jacob Shaffelburg;Canadá
+104;Mathieu Choinière;Canadá
+105;Niko Sigur;Canadá
+106;Tajon Buchanan;Canadá
+107;Liam Millar;Canadá
+108;Cyle Larin;Canadá
+109;Jonathan David;Canadá
+110;Escudo Suíça;Suíça
+111;Gregor Kobel;Suíça
+112;Yvon Mvogo;Suíça
+113;Manuel Akanji;Suíça
+114;Ricardo Rodriguez;Suíça
+115;Nico Elvedi;Suíça
+116;Aurèle Amenda;Suíça
+117;Silvan Widmer;Suíça
+118;Granit Xhaka;Suíça
+119;Denis Zakaria;Suíça
+120;Remo Freuler;Suíça
+121;Fabian Rieder;Suíça
+122;Foto do Time;Suíça
+123;Ardon Jashari;Suíça
+124;Johan Manzambi;Suíça
+125;Michel Aebischer;Suíça
+126;Breel Embolo;Suíça
+127;Ruben Vargas;Suíça
+128;Dan Ndoye;Suíça
+129;Zeki Amdouni;Suíça
+130;Escudo Catar;Catar
+131;Meshaal Barsham;Catar
+132;Sultan Albrake;Catar
+133;Lucas Mendes;Catar
+134;Homam Ahmed;Catar
+135;Boualem Khoukhi;Catar
+136;Pedro Miguel;Catar
+137;Tarek Salman;Catar
+138;Mohamed Al-Mannai;Catar
+139;Karim Boudiaf;Catar
+140;Assim Madibo;Catar
+141;Ahmed Fatehi;Catar
+142;Foto do Time;Catar
+143;Mohammed Waad;Catar
+144;Abdulaziz Hatem;Catar
+145;Hassan Al-Haydos;Catar
+146;Edmilson Junior;Catar
+147;Akram Hassan Afif;Catar
+148;Ahmed Al Ganehi;Catar
+149;Almoez Ali;Catar
+150;Escudo Bósnia e Herzegovina;Bósnia e Herzegovina
+151;Nikola Vasilj;Bósnia e Herzegovina
+152;Amar Dedić;Bósnia e Herzegovina
+153;Sead Kolašinac;Bósnia e Herzegovina
+154;Tarik Muharemović;Bósnia e Herzegovina
+155;Nihad Mujakić;Bósnia e Herzegovina
+156;Nikola Katić;Bósnia e Herzegovina
+157;Amir Hadžiahmetović;Bósnia e Herzegovina
+158;Benjamin Tahirović;Bósnia e Herzegovina
+159;Armin Gigović;Bósnia e Herzegovina
+160;Ivan Šunjić;Bósnia e Herzegovina
+161;Ivan Bašić;Bósnia e Herzegovina
+162;Foto do Time;Bósnia e Herzegovina
+163;Dženis Burnić;Bósnia e Herzegovina
+164;Esmir Bajraktarević;Bósnia e Herzegovina
+165;Amar Memić;Bósnia e Herzegovina
+166;Ermedin Demirović;Bósnia e Herzegovina
+167;Edin Džeko;Bósnia e Herzegovina
+168;Samed Baždar;Bósnia e Herzegovina
+169;Haris Tabaković;Bósnia e Herzegovina
+170;Escudo Brasil;Brasil
+171;Alisson;Brasil
+172;Bento;Brasil
+173;Marquinhos;Brasil
+174;Éder Militão;Brasil
+175;Gabriel Magalhães;Brasil
+176;Danilo;Brasil
+177;Wesley;Brasil
+178;Casemiro;Brasil
+179;Lucas Paquetá;Brasil
+180;Bruno Guimarães;Brasil
+181;Luiz Henrique;Brasil
+182;Foto do Time;Brasil
+183;Vinícius Jr.;Brasil
+184;Rodrygo;Brasil
+185;Raphinha;Brasil
+186;Gabriel Martinelli;Brasil
+187;Matheus Cunha;Brasil
+188;João Pedro;Brasil
+189;Estêvão;Brasil
+190;Escudo Marrocos;Marrocos
+191;Yassine Bounou;Marrocos
+192;Munir El Kajoui;Marrocos
+193;Achraf Hakimi;Marrocos
+194;Noussair Mazraoui;Marrocos
+195;Nayef Aguerd;Marrocos
+196;Romain Saïss;Marrocos
+197;Jawad El Yamiq;Marrocos
+198;Adam Masina;Marrocos
+199;Sofyan Amrabat;Marrocos
+200;Azzedine Ounahi;Marrocos
+201;Eliesse Ben Seghir;Marrocos
+202;Foto do Time;Marrocos
+203;Bilal El Khannouss;Marrocos
+204;Ismael Saibari;Marrocos
+205;Youssef En-Nesyri;Marrocos
+206;Abde Ezzalzouli;Marrocos
+207;Soufiane Rahimi;Marrocos
+208;Brahim Díaz;Marrocos
+209;Ayoub El Kaabi;Marrocos
+210;Escudo Escócia;Escócia
+211;Angus Gunn;Escócia
+212;Jack Hendry;Escócia
+213;Kieran Tierney;Escócia
+214;Aaron Hickey;Escócia
+215;Andrew Robertson;Escócia
+216;Scott McKenna;Escócia
+217;John Souttar;Escócia
+218;Anthony Ralston;Escócia
+219;Grant Hanley;Escócia
+220;Scott McTominay;Escócia
+221;Billy Gilmour;Escócia
+222;Foto do Time;Escócia
+223;Lewis Ferguson;Escócia
+224;Ryan Christie;Escócia
+225;Kenny McLean;Escócia
+226;John McGinn;Escócia
+227;Lyndon Dykes;Escócia
+228;Che Adams;Escócia
+229;Ben Doak;Escócia
+230;Escudo Haiti;Haiti
+231;Johny Placide;Haiti
+232;Carlens Arcus;Haiti
+233;Martin Expérience;Haiti
+234;Jean-Kevin Duverne;Haiti
+235;Ricardo Adé;Haiti
+236;Duke Lacroix;Haiti
+237;Garven Metusala;Haiti
+238;Hannes Delcroix;Haiti
+239;Leverton Pierre;Haiti
+240;Danley Jean Jacques;Haiti
+241;Jean-Ricner Bellegarde;Haiti
+242;Foto do Time;Haiti
+243;Christopher Attys;Haiti
+244;Derrick Etienne Jr.;Haiti
+245;Josué Casimir;Haiti
+246;Ruben Providence;Haiti
+247;Duckens Nazon;Haiti
+248;Louicius Deedson;Haiti
+249;Frantzdy Pierrot;Haiti
+250;Escudo Estados Unidos;Estados Unidos
+251;Matt Freese;Estados Unidos
+252;Chris Richards;Estados Unidos
+253;Tim Ream;Estados Unidos
+254;Mark McKenzie;Estados Unidos
+255;Alex Freeman;Estados Unidos
+256;Antonee Robinson;Estados Unidos
+257;Tyler Adams;Estados Unidos
+258;Tanner Tessmann;Estados Unidos
+259;Weston McKennie;Estados Unidos
+260;Christian Roldan;Estados Unidos
+261;Timothy Weah;Estados Unidos
+262;Foto do Time;Estados Unidos
+263;Diego Luna;Estados Unidos
+264;Malik Tillman;Estados Unidos
+265;Christian Pulisic;Estados Unidos
+266;Brenden Aaronson;Estados Unidos
+267;Ricardo Pepi;Estados Unidos
+268;Haji Wright;Estados Unidos
+269;Folarin Balogun;Estados Unidos
+270;Escudo Paraguai;Paraguai
+271;Roberto Fernández;Paraguai
+272;Orlando Gill;Paraguai
+273;Gustavo Gómez;Paraguai
+274;Fabián Balbuena;Paraguai
+275;Juan José Cáceres;Paraguai
+276;Omar Alderete;Paraguai
+277;Junior Alonso;Paraguai
+278;Mathías Villasanti;Paraguai
+279;Diego Gómez;Paraguai
+280;Damián Bobadilla;Paraguai
+281;Andrés Cubas;Paraguai
+282;Foto do Time;Paraguai
+283;Matías Galarza Fonda;Paraguai
+284;Julio Enciso;Paraguai
+285;Miguel Almirón;Paraguai
+286;Ramón Sosa;Paraguai
+287;Ángel Romero;Paraguai
+288;Robert Morales;Paraguai
+289;Antonio Sanabria;Paraguai
+290;Escudo Turquia;Turquia
+291;Ugurcan Cakir;Turquia
+292;Mert Muldur;Turquia
+293;Zeki Celik;Turquia
+294;Abdulkerim Bardakci;Turquia
+295;Caglar Soyuncu;Turquia
+296;Merih Demiral;Turquia
+297;Ferdi Kadioglu;Turquia
+298;Kaan Ayhan;Turquia
+299;Ismail Yuksek;Turquia
+300;Hakan Calhanoglu;Turquia
+301;Orkun Kokcu;Turquia
+302;Foto do Time;Turquia
+303;Arda Güler;Turquia
+304;Irfan Can Kahveci;Turquia
+305;Yunus Akgun;Turquia
+306;Can Uzun;Turquia
+307;Baris Alper Yilmaz;Turquia
+308;Kerem Akturkoglu;Turquia
+309;Kenan Yildiz;Turquia
+310;Escudo Austrália;Austrália
+311;Mathew Ryan;Austrália
+312;Joe Gauci;Austrália
+313;Harry Souttar;Austrália
+314;Alessandro Circati;Austrália
+315;Jordan Bos;Austrália
+316;Aziz Behich;Austrália
+317;Cameron Burgess;Austrália
+318;Lewis Miller;Austrália
+319;Milos Degenek;Austrália
+320;Jackson Irvine;Austrália
+321;Riley McGree;Austrália
+322;Foto do Time;Austrália
+323;Aiden O'Neill;Austrália
+324;Connor Metcalfe;Austrália
+325;Patrick Yazbek;Austrália
+326;Craig Goodwin;Austrália
+327;Kusini Yengi;Austrália
+328;Nestory Irankunda;Austrália
+329;Mohamed Touré;Austrália
+330;Escudo Alemanha;Alemanha
+331;Marc-André ter Stegen;Alemanha
+332;Jonathan Tah;Alemanha
+333;David Raum;Alemanha
+334;Nico Schlotterbeck;Alemanha
+335;Antonio Rüdiger;Alemanha
+336;Waldemar Anton;Alemanha
+337;Ridle Baku;Alemanha
+338;Maximilian Mittelstädt;Alemanha
+339;Joshua Kimmich;Alemanha
+340;Florian Wirtz;Alemanha
+341;Felix Nmecha;Alemanha
+342;Foto do Time;Alemanha
+343;Leon Goretzka;Alemanha
+344;Jamal Musiala;Alemanha
+345;Serge Gnabry;Alemanha
+346;Kai Havertz;Alemanha
+347;Leroy Sané;Alemanha
+348;Karim Adeyemi;Alemanha
+349;Nick Woltemade;Alemanha
+350;Escudo Equador;Equador
+351;Hernán Galíndez;Equador
+352;Gonzalo Valle;Equador
+353;Piero Hincapié;Equador
+354;Pervis Estupiñán;Equador
+355;Willian Pacho;Equador
+356;Ángelo Preciado;Equador
+357;Joel Ordóñez;Equador
+358;Moisés Caicedo;Equador
+359;Alan Franco;Equador
+360;Kendry Páez;Equador
+361;Pedro Vite;Equador
+362;Foto do Time;Equador
+363;John Yeboah;Equador
+364;Leonardo Campana;Equador
+365;Gonzalo Plata;Equador
+366;Nilson Angulo;Equador
+367;Alan Minda;Equador
+368;Kevin Rodríguez;Equador
+369;Enner Valencia;Equador
+370;Escudo Costa do Marfim;Costa do Marfim
+371;Yahia Fofana;Costa do Marfim
+372;Ghislain Konan;Costa do Marfim
+373;Wilfried Singo;Costa do Marfim
+374;Odilon Kossounou;Costa do Marfim
+375;Evan Ndicka;Costa do Marfim
+376;Willy Boly;Costa do Marfim
+377;Emmanuel Agbadou;Costa do Marfim
+378;Ousmane Diomande;Costa do Marfim
+379;Franck Kessié;Costa do Marfim
+380;Seko Fofana;Costa do Marfim
+381;Ibrahim Sangaré;Costa do Marfim
+382;Foto do Time;Costa do Marfim
+383;Jean-Philippe Gbamin;Costa do Marfim
+384;Amad Diallo;Costa do Marfim
+385;Sébastien Haller;Costa do Marfim
+386;Simon Adingra;Costa do Marfim
+387;Yan Diomande;Costa do Marfim
+388;Evann Guessand;Costa do Marfim
+389;Oumar Diakité;Costa do Marfim
+390;Escudo Curaçau;Curaçau
+391;Eloy Room;Curaçau
+392;Armando Obispo;Curaçau
+393;Sherel Floranus;Curaçau
+394;Jurien Gaari;Curaçau
+395;Joshua Brenet;Curaçau
+396;Roshon Van Eijma;Curaçau
+397;Shurandy Sambo;Curaçau
+398;Livano Comenencia;Curaçau
+399;Godfried Roemeratoe;Curaçau
+400;Juninho Bacuna;Curaçau
+401;Leandro Bacuna;Curaçau
+402;Foto do Time;Curaçau
+403;Tahith Chong;Curaçau
+404;Kenji Gorré;Curaçau
+405;Jearl Margaritha;Curaçau
+406;Jurgen Locadia;Curaçau
+407;Jeremy Antonisse;Curaçau
+408;Gervane Kastaneer;Curaçau
+409;Sontje Hansen;Curaçau
+410;Escudo Holanda;Holanda
+411;Bart Verbruggen;Holanda
+412;Virgil van Dijk;Holanda
+413;Micky van de Ven;Holanda
+414;Jurriën Timber;Holanda
+415;Denzel Dumfries;Holanda
+416;Nathan Aké;Holanda
+417;Jeremie Frimpong;Holanda
+418;Jan Paul van Hecke;Holanda
+419;Tijjani Reijnders;Holanda
+420;Ryan Gravenberch;Holanda
+421;Teun Koopmeiners;Holanda
+422;Foto do Time;Holanda
+423;Frenkie de Jong;Holanda
+424;Xavi Simons;Holanda
+425;Justin Kluivert;Holanda
+426;Memphis Depay;Holanda
+427;Donyell Malen;Holanda
+428;Wout Weghorst;Holanda
+429;Cody Gakpo;Holanda
+430;Escudo Japão;Japão
+431;Zion Suzuki;Japão
+432;Henry Heroki Mochizuki;Japão
+433;Ayumu Seko;Japão
+434;Junnosuke Suzuki;Japão
+435;Shogo Taniguchi;Japão
+436;Tsuyoshi Watanabe;Japão
+437;Kaishu Sano;Japão
+438;Yuki Soma;Japão
+439;Ao Tanaka;Japão
+440;Daichi Kamada;Japão
+441;Takefusa Kubo;Japão
+442;Foto do Time;Japão
+443;Ritsu Doan;Japão
+444;Keito Nakamura;Japão
+445;Takumi Minamino;Japão
+446;Shuto Machino;Japão
+447;Junya Ito;Japão
+448;Koki Ogawa;Japão
+449;Ayase Ueda;Japão
+450;Escudo Tunísia;Tunísia
+451;Bechir Ben Said;Tunísia
+452;Aymen Dahmen;Tunísia
+453;Van Valery;Tunísia
+454;Montassar Talbi;Tunísia
+455;Yassine Meriah;Tunísia
+456;Ali Abdi;Tunísia
+457;Dylan Bronn;Tunísia
+458;Ellyes Skhiri;Tunísia
+459;Aissa Laidouni;Tunísia
+460;Ferjani Sassi;Tunísia
+461;Mohamed Ali Ben Romdhane;Tunísia
+462;Foto do Time;Tunísia
+463;Hannibal Mejbri;Tunísia
+464;Elias Achouri;Tunísia
+465;Elias Saad;Tunísia
+466;Hazem Mastouri;Tunísia
+467;Ismael Gharbi;Tunísia
+468;Sayfallah Ltaief;Tunísia
+469;Naim Sliti;Tunísia
+470;Escudo Suécia;Suécia
+471;Victor Johansson;Suécia
+472;Isak Hien;Suécia
+473;Gabriel Gudmundsson;Suécia
+474;Emil Holm;Suécia
+475;Victor Nilsson Lindelöf;Suécia
+476;Gustaf Lagerbielke;Suécia
+477;Lucas Bergvall;Suécia
+478;Hugo Larsson;Suécia
+479;Jesper Karlström;Suécia
+480;Yasin Ayari;Suécia
+481;Mattias Svanberg;Suécia
+482;Foto do Time;Suécia
+483;Daniel Svensson;Suécia
+484;Ken Sema;Suécia
+485;Roony Bardghji;Suécia
+486;Dejan Kulusevski;Suécia
+487;Anthony Elanga;Suécia
+488;Alexander Isak;Suécia
+489;Viktor Gyökeres;Suécia
+490;Escudo Bélgica;Bélgica
+491;Thibaut Courtois;Bélgica
+492;Arthur Theate;Bélgica
+493;Timothy Castagne;Bélgica
+494;Zeno Debast;Bélgica
+495;Brandon Mechele;Bélgica
+496;Maxim De Cuyper;Bélgica
+497;Thomas Meunier;Bélgica
+498;Youri Tielemans;Bélgica
+499;Amadou Onana;Bélgica
+500;Nicolas Raskin;Bélgica
+501;Alexis Saelemaekers;Bélgica
+502;Foto do Time;Bélgica
+503;Hans Vanaken;Bélgica
+504;Kevin De Bruyne;Bélgica
+505;Jérémy Doku;Bélgica
+506;Charles De Ketelaere;Bélgica
+507;Leandro Trossard;Bélgica
+508;Loïs Openda;Bélgica
+509;Romelu Lukaku;Bélgica
+510;Escudo Irã;Irã
+511;Alireza Beiranvand;Irã
+512;Morteza Pouraliganji;Irã
+513;Ehsan Hajsafi;Irã
+514;Milad Mohammadi;Irã
+515;Shoja Khalilzadeh;Irã
+516;Ramin Rezaeian;Irã
+517;Hossein Kanaani;Irã
+518;Sadegh Moharrami;Irã
+519;Saleh Hardani;Irã
+520;Saeed Ezatolahi;Irã
+521;Saman Ghoddos;Irã
+522;Foto do Time;Irã
+523;Omid Noorafkan;Irã
+524;Roozbeh Cheshmi;Irã
+525;Mohammad Mohebi;Irã
+526;Sardar Azmoun;Irã
+527;Mehdi Taremi;Irã
+528;Alireza Jahanbakhsh;Irã
+529;Ali Gholizadeh;Irã
+530;Escudo Egito;Egito
+531;Mohamed El Shenawy;Egito
+532;Mohamed Hany;Egito
+533;Mohamed Hamdy;Egito
+534;Yasser Ibrahim;Egito
+535;Khaled Sobhi;Egito
+536;Ramy Rabia;Egito
+537;Hossam Abdelmaguid;Egito
+538;Ahmed Fatouh;Egito
+539;Marwan Attia;Egito
+540;Zizo;Egito
+541;Hamdy Fathy;Egito
+542;Foto do Time;Egito
+543;Mohamed Lasheen;Egito
+544;Emam Ashour;Egito
+545;Osama Faisal;Egito
+546;Mohamed Salah;Egito
+547;Mostafa Mohamed;Egito
+548;Trezeguet;Egito
+549;Omar Marmoush;Egito
+550;Escudo Nova Zelândia;Nova Zelândia
+551;Max Crocombe-Payne;Nova Zelândia
+552;Alex Paulsen;Nova Zelândia
+553;Michael Boxall;Nova Zelândia
+554;Liberato Cacace;Nova Zelândia
+555;Tim Payne;Nova Zelândia
+556;Tyler Bindon;Nova Zelândia
+557;Francis de Vries;Nova Zelândia
+558;Finn Surman;Nova Zelândia
+559;Joe Bell;Nova Zelândia
+560;Sarpreet Singh;Nova Zelândia
+561;Ryan Thomas;Nova Zelândia
+562;Foto do Time;Nova Zelândia
+563;Matthew Garbett;Nova Zelândia
+564;Marko Stamenić;Nova Zelândia
+565;Ben Old;Nova Zelândia
+566;Chris Wood;Nova Zelândia
+567;Elijah Just;Nova Zelândia
+568;Callum McCowatt;Nova Zelândia
+569;Kosta Barbarouses;Nova Zelândia
+570;Escudo Espanha;Espanha
+571;Unai Simón;Espanha
+572;Robin Le Normand;Espanha
+573;Aymeric Laporte;Espanha
+574;Dean Huijsen;Espanha
+575;Pedro Porro;Espanha
+576;Dani Carvajal;Espanha
+577;Marc Cucurella;Espanha
+578;Martín Zubimendi;Espanha
+579;Rodri;Espanha
+580;Pedri;Espanha
+581;Fabián Ruiz;Espanha
+582;Foto do Time;Espanha
+583;Mikel Merino;Espanha
+584;Lamine Yamal;Espanha
+585;Dani Olmo;Espanha
+586;Nico Williams;Espanha
+587;Ferran Torres;Espanha
+588;Álvaro Morata;Espanha
+589;Mikel Oyarzabal;Espanha
+590;Escudo Uruguai;Uruguai
+591;Sergio Rochet;Uruguai
+592;Santiago Mele;Uruguai
+593;Ronald Araujo;Uruguai
+594;José María Giménez;Uruguai
+595;Sebastian Caceres;Uruguai
+596;Mathias Olivera;Uruguai
+597;Guillermo Varela;Uruguai
+598;Nahitan Nandez;Uruguai
+599;Federico Valverde;Uruguai
+600;Giorgian De Arrascaeta;Uruguai
+601;Rodrigo Bentancur;Uruguai
+602;Foto do Time;Uruguai
+603;Manuel Ugarte;Uruguai
+604;Nicolás de la Cruz;Uruguai
+605;Maxi Araujo;Uruguai
+606;Darwin Núñez;Uruguai
+607;Federico Viñas;Uruguai
+608;Rodrigo Aguirre;Uruguai
+609;Facundo Pellistri;Uruguai
+610;Escudo Arábia Saudita;Arábia Saudita
+611;Nawaf Alaqidi;Arábia Saudita
+612;Abdulrahman Al-Sanbi;Arábia Saudita
+613;Saud Abdulhamid;Arábia Saudita
+614;Nawaf Boushal;Arábia Saudita
+615;Jihad Thakri;Arábia Saudita
+616;Moteb Al-Harbi;Arábia Saudita
+617;Hassan Altambakti;Arábia Saudita
+618;Musab Aljuwayr;Arábia Saudita
+619;Ziyad Aljohani;Arábia Saudita
+620;Abdullah Alkhaibari;Arábia Saudita
+621;Nasser Aldawsari;Arábia Saudita
+622;Foto do Time;Arábia Saudita
+623;Saleh Abu Alshamat;Arábia Saudita
+624;Marwan Alsahafi;Arábia Saudita
+625;Salem Aldawsari;Arábia Saudita
+626;Abdulrahman Al-Aboud;Arábia Saudita
+627;Feras Albrikan;Arábia Saudita
+628;Saleh Alshehri;Arábia Saudita
+629;Abdullah Al-Hamdan;Arábia Saudita
+630;Escudo Cabo Verde;Cabo Verde
+631;Vozinha;Cabo Verde
+632;Logan Costa;Cabo Verde
+633;Pico;Cabo Verde
+634;Diney;Cabo Verde
+635;Steven Moreira;Cabo Verde
+636;Wagner Pina;Cabo Verde
+637;João Paulo;Cabo Verde
+638;Yannick Semedo;Cabo Verde
+639;Kevin Pina;Cabo Verde
+640;Patrick Andrade;Cabo Verde
+641;Jamiro Monteiro;Cabo Verde
+642;Foto do Time;Cabo Verde
+643;Deroy Duarte;Cabo Verde
+644;Garry Rodrigues;Cabo Verde
+645;Jovane Cabral;Cabo Verde
+646;Ryan Mendes;Cabo Verde
+647;Dailon Livramento;Cabo Verde
+648;Willy Semedo;Cabo Verde
+649;Bebé;Cabo Verde
+650;Escudo França;França
+651;Mike Maignan;França
+652;Theo Hernández;França
+653;William Saliba;França
+654;Jules Koundé;França
+655;Ibrahima Konaté;França
+656;Dayot Upamecano;França
+657;Lucas Digne;França
+658;Aurélien Tchouaméni;França
+659;Eduardo Camavinga;França
+660;Manu Koné;França
+661;Adrien Rabiot;França
+662;Foto do Time;França
+663;Michael Olise;França
+664;Ousmane Dembélé;França
+665;Bradley Barcola;França
+666;Désiré Doué;França
+667;Kingsley Coman;França
+668;Hugo Ekitike;França
+669;Kylian Mbappé;França
+670;Escudo Senegal;Senegal
+671;Eduardo Mendy;Senegal
+672;Yehvann Diouf;Senegal
+673;Moussa Niakhaté;Senegal
+674;Abdoulaye Seck;Senegal
+675;Ismail Jakobs;Senegal
+676;El Hadji Malick Diouf;Senegal
+677;Kalidou Koulibaly;Senegal
+678;Idrissa Gana Gueye;Senegal
+679;Pape Matar Sarr;Senegal
+680;Pape Gueye;Senegal
+681;Habib Diarra;Senegal
+682;Foto do Time;Senegal
+683;Lamine Camara;Senegal
+684;Sadio Mané;Senegal
+685;Ismaïla Sarr;Senegal
+686;Boulaye Dia;Senegal
+687;Iliman Ndiaye;Senegal
+688;Nicolas Jackson;Senegal
+689;Krepin Diatta;Senegal
+690;Escudo Noruega;Noruega
+691;Ørjan Nyland;Noruega
+692;Julian Ryerson;Noruega
+693;Leo Østigård;Noruega
+694;Kristoffer Ajer;Noruega
+695;Marcus Holmgren Pedersen;Noruega
+696;David Møller Wolfe;Noruega
+697;Torbjørn Heggem;Noruega
+698;Morten Thorsby;Noruega
+699;Martin Ødegaard;Noruega
+700;Sander Berge;Noruega
+701;Andreas Schjelderup;Noruega
+702;Foto do Time;Noruega
+703;Patrick Berg;Noruega
+704;Erling Haaland;Noruega
+705;Alexander Sørloth;Noruega
+706;Aron Dønnum;Noruega
+707;Jørgen Strand Larsen;Noruega
+708;Antonio Nusa;Noruega
+709;Oscar Bobb;Noruega
+710;Escudo Iraque;Iraque
+711;Jalal Hassan;Iraque
+712;Rebin Sulaka;Iraque
+713;Hussein Ali;Iraque
+714;Akam Hashem;Iraque
+715;Merchas Doski;Iraque
+716;Zaid Tahseen;Iraque
+717;Manaf Younis;Iraque
+718;Zidane Iqbal;Iraque
+719;Amir Al-Ammari;Iraque
+720;Ibrahim Bayesh;Iraque
+721;Ali Jasim;Iraque
+722;Foto do Time;Iraque
+723;Youssef Amyn;Iraque
+724;Aimar Sher;Iraque
+725;Marko Farji;Iraque
+726;Osama Rashid;Iraque
+727;Ali Al-Hamadi;Iraque
+728;Aymen Hussein;Iraque
+729;Mohanad Ali;Iraque
+730;Escudo Argentina;Argentina
+731;Emiliano Martínez;Argentina
+732;Nahuel Molina;Argentina
+733;Cristian Romero;Argentina
+734;Nicolás Otamendi;Argentina
+735;Nicolás Tagliafico;Argentina
+736;Leonardo Balerdi;Argentina
+737;Enzo Fernández;Argentina
+738;Alexis Mac Allister;Argentina
+739;Rodrigo De Paul;Argentina
+740;Exequiel Palacios;Argentina
+741;Leandro Paredes;Argentina
+742;Foto do Time;Argentina
+743;Nico Paz;Argentina
+744;Franco Mastantuono;Argentina
+745;Nico González;Argentina
+746;Lionel Messi;Argentina
+747;Lautaro Martínez;Argentina
+748;Julián Álvarez;Argentina
+749;Giuliano Simeone;Argentina
+750;Escudo Áustria;Áustria
+751;Alexander Schlager;Áustria
+752;Patrick Pentz;Áustria
+753;David Alaba;Áustria
+754;Kevin Danso;Áustria
+755;Philipp Lienhart;Áustria
+756;Stefan Posch;Áustria
+757;Phillipp Mwene;Áustria
+758;Alexander Prass;Áustria
+759;Xaver Schlager;Áustria
+760;Marcel Sabitzer;Áustria
+761;Konrad Laimer;Áustria
+762;Foto do Time;Áustria
+763;Florian Grillitsch;Áustria
+764;Nicolas Seiwald;Áustria
+765;Romano Schmid;Áustria
+766;Patrick Wimmer;Áustria
+767;Christoph Baumgartner;Áustria
+768;Michael Gregoritsch;Áustria
+769;Marko Arnautović;Áustria
+770;Escudo Argélia;Argélia
+771;Alexis Guendouz;Argélia
+772;Ramy Bensebaini;Argélia
+773;Youcef Atal;Argélia
+774;Rayan Aït-Nouri;Argélia
+775;Mohamed Amine Tougai;Argélia
+776;Aïssa Mandi;Argélia
+777;Ismael Bennacer;Argélia
+778;Houssem Aouar;Argélia
+779;Hicham Boudaoui;Argélia
+780;Ramiz Zerrouki;Argélia
+781;Nabil Bentaleb;Argélia
+782;Foto do Time;Argélia
+783;Farés Chaibi;Argélia
+784;Riyad Mahrez;Argélia
+785;Said Benrahma;Argélia
+786;Anis Hadj Moussa;Argélia
+787;Amine Gouiri;Argélia
+788;Baghdad Bounedjah;Argélia
+789;Mohammed Amoura;Argélia
+790;Escudo Jordânia;Jordânia
+791;Yazeed Abulaila;Jordânia
+792;Ihsan Haddad;Jordânia
+793;Mohammad Abu Hashish;Jordânia
+794;Yazan Al-Arab;Jordânia
+795;Abdallah Nasib;Jordânia
+796;Saleem Obaid;Jordânia
+797;Mohammad Abualnadi;Jordânia
+798;Ibrahim Saadeh;Jordânia
+799;Nizar Al-Rashdan;Jordânia
+800;Noor Al-Rawabdeh;Jordânia
+801;Mohannad Abu Taha;Jordânia
+802;Foto do Time;Jordânia
+803;Amer Jamous;Jordânia
+804;Musa Al-Taamari;Jordânia
+805;Yazan Al-Naimat;Jordânia
+806;Mahmoud Al-Mardi;Jordânia
+807;Ali Olwan;Jordânia
+808;Mohammad Abu Zrayq;Jordânia
+809;Ibrahim Sabra;Jordânia
+810;Escudo Portugal;Portugal
+811;Diogo Costa;Portugal
+812;Jose Sá;Portugal
+813;Ruben Dias;Portugal
+814;João Cancelo;Portugal
+815;Diogo Dalot;Portugal
+816;Nuno Mendes;Portugal
+817;Gonçalo Inácio;Portugal
+818;Bernardo Silva;Portugal
+819;Bruno Fernandes;Portugal
+820;Ruben Neves;Portugal
+821;Vitinha;Portugal
+822;Foto do Time;Portugal
+823;João Neves;Portugal
+824;Cristiano Ronaldo;Portugal
+825;Francisco Trincão;Portugal
+826;João Félix;Portugal
+827;Gonçalo Ramos;Portugal
+828;Pedro Neto;Portugal
+829;Rafael Leão;Portugal
+830;Escudo Colômbia;Colômbia
+831;Camilo Vargas;Colômbia
+832;David Ospina;Colômbia
+833;Dávinson Sánchez;Colômbia
+834;Yerry Mina;Colômbia
+835;Daniel Muñoz;Colômbia
+836;Johan Mojica;Colômbia
+837;Jhon Lucumí;Colômbia
+838;Santiago Arias;Colômbia
+839;Jefferson Lerma;Colômbia
+840;Kevin Castaño;Colômbia
+841;Richard Ríos;Colômbia
+842;Foto do Time;Colômbia
+843;James Rodríguez;Colômbia
+844;Juan Fernando Quintero;Colômbia
+845;Jorge Carrascal;Colômbia
+846;Jhon Arias;Colômbia
+847;Jhon Córdoba;Colômbia
+848;Luis Suárez;Colômbia
+849;Luis Díaz;Colômbia
+850;Escudo Uzbequistão;Uzbequistão
+851;Utkir Yusupov;Uzbequistão
+852;Farrukh Savfiev;Uzbequistão
+853;Sherzod Nasrullaev;Uzbequistão
+854;Umar Eshmurodov;Uzbequistão
+855;Husniddin Aliqulov;Uzbequistão
+856;Rustamjon Ashurmatov;Uzbequistão
+857;Khojiakbar Alijonov;Uzbequistão
+858;Abdukodir Khusanov;Uzbequistão
+859;Odiljon Hamrobekov;Uzbequistão
+860;Otabek Shukurov;Uzbequistão
+861;Jamshid Iskanderov;Uzbequistão
+862;Foto do Time;Uzbequistão
+863;Azizbek Turgunboev;Uzbequistão
+864;Khojimat Erkinov;Uzbequistão
+865;Eldor Shomurodov;Uzbequistão
+866;Oston Urunov;Uzbequistão
+867;Jaloliddin Masharipov;Uzbequistão
+868;Igor Sergeev;Uzbequistão
+869;Abbosbek Fayzullaev;Uzbequistão
+870;Escudo Rep. Dem. do Congo;Rep Dem do Congo
+871;Lionel Mpasi;Rep Dem do Congo
+872;Aaron Wan-Bissaka;Rep Dem do Congo
+873;Axel Tuanzebe;Rep Dem do Congo
+874;Arthur Masuaku;Rep Dem do Congo
+875;Chancel Mbemba;Rep Dem do Congo
+876;Joris Kayembe;Rep Dem do Congo
+877;Charles Pickel;Rep Dem do Congo
+878;Ngal'ayel Mukau;Rep Dem do Congo
+879;Edo Kayembe;Rep Dem do Congo
+880;Samuel Moutoussamy;Rep Dem do Congo
+881;Noah Sadiki;Rep Dem do Congo
+882;Foto do Time;Rep Dem do Congo
+883;Théo Bongonda;Rep Dem do Congo
+884;Meschack Elia;Rep Dem do Congo
+885;Yoane Wissa;Rep Dem do Congo
+886;Brian Cipenga;Rep Dem do Congo
+887;Fiston Mayele;Rep Dem do Congo
+888;Cédric Bakambu;Rep Dem do Congo
+889;Nathanaël Mbuku;Rep Dem do Congo
+890;Escudo Inglaterra;Inglaterra
+891;Jordan Pickford;Inglaterra
+892;John Stones;Inglaterra
+893;Marc Guéhi;Inglaterra
+894;Ezri Konsa;Inglaterra
+895;Trent Alexander-Arnold;Inglaterra
+896;Reece James;Inglaterra
+897;Dan Burn;Inglaterra
+898;Jordan Henderson;Inglaterra
+899;Declan Rice;Inglaterra
+900;Jude Bellingham;Inglaterra
+901;Cole Palmer;Inglaterra
+902;Foto do Time;Inglaterra
+903;Morgan Rogers;Inglaterra
+904;Anthony Gordon;Inglaterra
+905;Phil Foden;Inglaterra
+906;Bukayo Saka;Inglaterra
+907;Harry Kane;Inglaterra
+908;Marcus Rashford;Inglaterra
+909;Ollie Watkins;Inglaterra
+910;Escudo Croácia;Croácia
+911;Dominik Livaković;Croácia
+912;Duje Ćaleta-Car;Croácia
+913;Joško Gvardiol;Croácia
+914;Josip Stanišić;Croácia
+915;Luka Vušković;Croácia
+916;Josip Šutalo;Croácia
+917;Kristijan Jakić;Croácia
+918;Luka Modrić;Croácia
+919;Mateo Kovačić;Croácia
+920;Martin Baturina;Croácia
+921;Lovro Majer;Croácia
+922;Foto do Time;Croácia
+923;Mario Pašalić;Croácia
+924;Petar Sučić;Croácia
+925;Ivan Perišić;Croácia
+926;Marco Pašalić;Croácia
+927;Ante Budimir;Croácia
+928;Andrej Kramarić;Croácia
+929;Franjo Ivanović;Croácia
+930;Escudo Panamá;Panamá
+931;Orlando Mosquera;Panamá
+932;Luis Mejía;Panamá
+933;Fidel Escobar;Panamá
+934;Andrés Andrade;Panamá
+935;Michael Amir Murillo;Panamá
+936;Eric Davis;Panamá
+937;José Córdoba;Panamá
+938;César Blackman;Panamá
+939;Cristian Martínez;Panamá
+940;Aníbal Godoy;Panamá
+941;Adalberto Carrasquilla;Panamá
+942;Foto do Time;Panamá
+943;Édgar Bárcenas;Panamá
+944;Carlos Harvey;Panamá
+945;Ismael Díaz;Panamá
+946;José Fajardo;Panamá
+947;Cecilio Waterman;Panamá
+948;José Luis Rodríguez;Panamá
+949;Alberto Quintero;Panamá
+950;Escudo Gana;Gana
+951;Lawrence Ati Zigi;Gana
+952;Tariq Lamptey;Gana
+953;Mohammed Salisu;Gana
+954;Alidu Seidu;Gana
+955;Alexander Djiku;Gana
+956;Gideon Mensah;Gana
+957;Caleb Yirenkyi;Gana
+958;Abdul Fatawu Issahaku;Gana
+959;Thomas Partey;Gana
+960;Salis Abdul Samed;Gana
+961;Kamaldeen Sulemana;Gana
+962;Foto do Time;Gana
+963;Mohammed Kudus;Gana
+964;Iñaki Williams;Gana
+965;Jordan Ayew;Gana
+966;André Ayew;Gana
+967;Joseph Paintsil;Gana
+968;Osman Bukari;Gana
+969;Antoine Semenyo;Gana
+970;FWC 9 — Itália 1934;FIFA Museum
+971;FWC 10 — Uruguai 1950;FIFA Museum
+972;FWC 11 — Alemanha Ocidental 1954;FIFA Museum
+973;FWC 12 — Brasil 1962;FIFA Museum
+974;FWC 13 — Alemanha Ocidental 1974;FIFA Museum
+975;FWC 14 — Argentina 1986;FIFA Museum
+976;FWC 15 — Brasil 1994;FIFA Museum
+977;FWC 16 — Brasil 2002;FIFA Museum
+978;FWC 17 — Itália 2006;FIFA Museum
+979;FWC 18 — Alemanha 2014;FIFA Museum
+980;FWC 19 — Argentina 2022;FIFA Museum
+981;CC 1 — Lamine Yamal;CocaCola
+982;CC 2 — Joshua Kimmich;CocaCola
+983;CC 3 — Harry Kane;CocaCola
+984;CC 4 — Santiago Giménez;CocaCola
+985;CC 5 — Joško Gvardiol;CocaCola
+986;CC 6 — Federico Valverde;CocaCola
+987;CC 7 — Jefferson Lerma;CocaCola
+988;CC 8 — Enner Valencia;CocaCola
+989;CC 9 — Gabriel Magalhães;CocaCola
+990;CC 10 — Virgil van Dijk;CocaCola
+991;CC 11 — Alphonso Davies;CocaCola
+992;CC 12 — Emiliano Martínez;CocaCola
+993;CC 13 — Raúl Jiménez;CocaCola
+994;CC 14 — Lautaro Martínez;CocaCola
