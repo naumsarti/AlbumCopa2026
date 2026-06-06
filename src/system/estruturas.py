@@ -1,0 +1,50 @@
+from .models import NodoLista, NodoFila
+
+class Album:
+    def __init__(self, total_album=994):
+        self.cabeca = None     
+        self.tamanho = 0       
+        self.total_album = total_album 
+
+    def adicionar(self, figurinha):
+        novo_nodo = NodoLista(figurinha)
+        
+        if self.cabeca is None or self.cabeca.figurinha.id > figurinha.id:
+            novo_nodo.proximo = self.cabeca
+            self.cabeca = novo_nodo
+            self.tamanho += 1
+            return True
+            
+        atual = self.cabeca
+        while atual.proximo is not None and atual.proximo.figurinha.id < figurinha.id:
+            atual = atual.proximo
+            
+        if atual.figurinha.id == figurinha.id or (atual.proximo and atual.proximo.figurinha.id == figurinha.id):
+            return False 
+            
+        novo_nodo.proximo = atual.proximo
+        atual.proximo = novo_nodo
+        self.tamanho += 1
+        return True
+
+    def remover(self, id_fig):
+        if self.cabeca is None:
+            return None
+            
+        if self.cabeca.figurinha.id == id_fig:
+            removida = self.cabeca.figurinha
+            self.cabeca = self.cabeca.proximo 
+            self.tamanho -= 1
+            return removida
+            
+        atual = self.cabeca
+        while atual.proximo is not None and atual.proximo.figurinha.id != id_fig:
+            atual = atual.proximo
+            
+        if atual.proximo is not None:
+            removida = atual.proximo.figurinha
+            atual.proximo = atual.proximo.proximo
+            self.tamanho -= 1
+            return removida
+            
+        return None 
