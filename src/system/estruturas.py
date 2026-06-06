@@ -68,3 +68,38 @@ class Album:
 
     def porcentagem_concluida(self):
         return (self.tamanho / self.total_album) * 100
+
+class Fila:
+    def __init__(self):
+        self.inicio = None 
+        self.fim = None    
+        self.tamanho = 0
+
+    def enqueue(self, dado):
+        novo_nodo = NodoFila(dado)
+        if self.fim is None:
+            self.inicio = novo_nodo
+            self.fim = novo_nodo
+        else:
+            self.fim.proximo = novo_nodo
+            self.fim = novo_nodo
+        self.tamanho += 1
+
+    def dequeue(self):
+        if self.inicio is None:
+            return None
+        dado_removido = self.inicio.dado
+        self.inicio = self.inicio.proximo
+        if self.inicio is None:
+            self.fim = None
+        self.tamanho -= 1
+        return dado_removido
+
+    def exibir_historico(self):
+        atual = self.inicio
+        if not atual:
+            print("Nenhuma troca registrada.")
+            return
+        while atual is not None:
+            print(f"- {atual.dado}")
+            atual = atual.proximo
