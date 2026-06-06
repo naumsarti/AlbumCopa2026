@@ -48,3 +48,23 @@ class Album:
             return removida
             
         return None 
+
+    def buscar_por_id(self, id_fig):
+        atual = self.cabeca
+        while atual is not None:
+            if atual.figurinha.id == id_fig:
+                return atual.figurinha
+            atual = atual.proximo
+        return None
+
+    def exibir_album(self):
+        atual = self.cabeca
+        if not atual:
+            print("Álbum vazio.")
+            return
+        while atual is not None:
+            print(atual.figurinha)
+            atual = atual.proximo
+
+    def porcentagem_concluida(self):
+        return (self.tamanho / self.total_album) * 100
