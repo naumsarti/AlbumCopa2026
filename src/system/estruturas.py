@@ -81,15 +81,6 @@ class Album:
             atual = atual.proximo
         return None
 
-    def exibir_album(self):
-        atual = self.cabeca
-        if not atual:
-            print("Álbum vazio.")
-            return
-        while atual is not None:
-            print(atual.figurinha)
-            atual = atual.proximo
-
     def porcentagem_concluida(self):
         return (self.tamanho / self.total_album) * 100
 
@@ -118,12 +109,3 @@ class Fila:
             self.fim = None
         self.tamanho -= 1
         return dado_removido
-
-    def exibir_historico(self):
-        atual = self.inicio
-        if not atual:
-            print("Nenhuma troca registrada.")
-            return
-        while atual is not None:
-            print(f"- {atual.dado}")
-            atual = atual.proximo
