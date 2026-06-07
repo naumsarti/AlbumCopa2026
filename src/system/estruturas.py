@@ -19,8 +19,12 @@ class Album:
         while atual.proximo is not None and atual.proximo.figurinha.id < figurinha.id:
             atual = atual.proximo
             
-        if atual.figurinha.id == figurinha.id or (atual.proximo and atual.proximo.figurinha.id == figurinha.id):
-            return False 
+        if atual.figurinha.id == figurinha.id:
+            atual.figurinha.quantidade += 1
+            return True
+        if atual.proximo and atual.proximo.figurinha.id == figurinha.id:
+            atual.proximo.figurinha.quantidade += 1
+            return True
             
         novo_nodo.proximo = atual.proximo
         atual.proximo = novo_nodo
@@ -32,22 +36,29 @@ class Album:
             return None
             
         if self.cabeca.figurinha.id == id_fig:
-            removida = self.cabeca.figurinha
-            self.cabeca = self.cabeca.proximo 
-            self.tamanho -= 1
-            return removida
-            
+            if self.cabeca.figurinha.quantidade > 1:
+                self.cabeca.figurinha.quantidade -= 1
+                return self.cabeca.figurinha
+            else:
+                removida = self.cabeca.figurinha
+                self.cabeca = self.cabeca.proximo
+                self.tamanho -= 1
+                return removida
+        
         atual = self.cabeca
         while atual.proximo is not None and atual.proximo.figurinha.id != id_fig:
             atual = atual.proximo
             
         if atual.proximo is not None:
-            removida = atual.proximo.figurinha
-            atual.proximo = atual.proximo.proximo
-            self.tamanho -= 1
-            return removida
-            
-        return None 
+            if atual.proximo.figurinha.quantidade > 1:
+                atual.proximo.figurinha.quantidade -= 1
+                return atual.proximo.figurinha
+            else:
+                removida = atual.proximo.figurinha
+                atual.proximo = atual.proximo.proximo
+                self.tamanho -= 1
+                return removida
+        return None
 
     def buscar_por_id(self, id_fig):
         atual = self.cabeca
