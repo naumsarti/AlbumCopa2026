@@ -31,6 +31,19 @@ class Album:
         self.tamanho += 1
         return True
 
+    def adicionar_carga(self, figurinha):
+        novo_nodo = NodoLista(figurinha)
+        if self.cabeca is None or self.cabeca.figurinha.id > figurinha.id:
+            novo_nodo.proximo = self.cabeca
+            self.cabeca = novo_nodo
+        else:
+            atual = self.cabeca
+            while atual.proximo is not None and atual.proximo.figurinha.id < figurinha.id:
+                atual = atual.proximo
+            novo_nodo.proximo = atual.proximo
+            atual.proximo = novo_nodo
+        self.tamanho += 1
+
     def remover(self, id_fig):
         if self.cabeca is None:
             return None
