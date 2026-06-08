@@ -133,3 +133,22 @@ class SistemaFigurinhas:
             f"  RESUMO DAS ENTRADAS:\n    {relatorio_adicionadas}"
         )
         return True, mensagem_final
+
+    def salvar_dados(self, arquivo="src/data/dados_copa.json"):
+        dados = {"album": [], "repetidas": [], "banca": [], "historico": []}
+        
+        for lista, chave in [(self.album, "album"), (self.repetidas, "repetidas"), (self.banca_trocas, "banca")]:
+            atual = lista.cabeca
+            while atual:
+                dados[chave].append(atual.figurinha.to_dict())
+                atual = atual.proximo
+                
+        atual_hist = self.historico.inicio
+        while atual_hist:
+            dados["historico"].append(atual_hist.dado)
+            atual_hist = atual_hist.proximo
+
+        with open(arquivo, 'w', encoding='utf-8') as f:
+            json.dump(dados, f, ensure_ascii=False, indent=4)
+        return True, f"Progresso salvo em {arquivo}."
+    
