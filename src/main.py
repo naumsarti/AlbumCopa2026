@@ -57,6 +57,39 @@ def main():
             exibir_album(sistema.repetidas)
             pausar()
 
+        elif opcao == "6":
+            imprimir_cabecalho("Central de Trocas")
+            print("1. Troca Manual")
+            print("2. Troca Automática\n")
+            
+            tipo_troca = input("Selecione (1 ou 2): ").strip()
+            
+            if tipo_troca == "1":
+                print("\n-- Troca Manual --")
+                exibir_album(sistema.repetidas)
+                
+                entrada = input("\nDigite o ID da sua REPETIDA que deseja oferecer (ou Enter para cancelar): ").strip()
+                if entrada.isdigit():
+                    id_oferecida = int(entrada)
+                    print("\n-- Escolha a figurinha que quer RECEBER --")
+                    id_desejada = solicitar_entrada_inteligente(sistema, "Buscar por ID ou Nome: ")
+                    
+                    if id_desejada is not None:
+                        sucesso, msg = sistema.realizar_troca_manual(id_oferecida, id_desejada)
+                        print(f"\n{msg}")
+                else:
+                    print("\nOperação cancelada.")
+
+            elif tipo_troca == "2":
+                print("\n-- Troca Automática --")
+                print("Analisando suas figurinhas repetidas e buscando inéditas no catálogo...\n")
+                sucesso, msg = sistema.realizar_troca_automatica()
+                print(msg)
+                
+            else:
+                print("\n✕ Opção de troca inválida.")
+            pausar()
+
         elif opcao == "0":
             print("\nEncerrando o sistema.")
             break
