@@ -36,3 +36,22 @@ class SistemaFigurinhas:
                 if len(sugestoes) >= 15:
                     break
         return sugestoes
+    
+    def inserir_pacotinho(self, id_fig):
+        try:
+            id_fig = int(id_fig)
+            if id_fig not in self.catalogo_oficial:
+                return False, f"[ERRO] ID #{id_fig} não existe no catálogo oficial da Copa."
+
+            fig_matriz = self.catalogo_oficial[id_fig]
+            nova_fig = Figurinha(fig_matriz.id, fig_matriz.nome, fig_matriz.pais)
+            
+            if self.album.buscar_por_id(id_fig) is not None:
+                self.repetidas.adicionar(nova_fig)
+                return True, f"✓ REPETIDA: {nova_fig.nome} foi para o seu monte de trocas!"
+            else:
+                self.album.adicionar(nova_fig)
+                return True, f"★ NOVA: {nova_fig.nome} colada no álbum com sucesso!"
+                
+        except ValueError:
+            return False, "[ERRO] ID inválido."
