@@ -18,7 +18,20 @@ def main():
                 sucesso, msg = sistema.inserir_pacotinho(id_fig)
                 print(f"\n{msg}")
             pausar()
-
+   
+        elif opcao == "2":
+            imprimir_cabecalho("Álbum Completo")
+            exibir_album(sistema.album)
+            pausar()
+            
+        elif opcao == "3":
+            imprimir_cabecalho("Estatísticas do Álbum")
+            pct = sistema.album.porcentagem_concluida()
+            print(f"Progresso: {pct:.2f}% concluído")
+            print(f"Figurinhas Únicas Coladas: {sistema.album.tamanho}/{sistema.total_figurinhas}")
+            print(f"Quantidade de Repetidas Guardadas: {sistema.repetidas.tamanho}")
+            pausar()
+            
             
         elif opcao == "0":
             print("\nEncerrando o sistema.")
