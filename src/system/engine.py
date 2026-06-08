@@ -26,3 +26,13 @@ class SistemaFigurinhas:
                 except ValueError:
                     continue
         return True, "Catálogo carregado com sucesso."
+    
+    def buscar_sugestoes(self, termo):
+        termo = termo.lower().strip()
+        sugestoes = []
+        for fig in self.catalogo_oficial.values():
+            if termo in fig.nome.lower() or termo in fig.pais.lower():
+                sugestoes.append(fig)
+                if len(sugestoes) >= 15:
+                    break
+        return sugestoes
