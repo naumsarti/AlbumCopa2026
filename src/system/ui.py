@@ -1,6 +1,6 @@
 def imprimir_cabecalho(titulo):
     print("\n" + "="*45)
-    print(f" {titulo.upper()} ")
+    print(f" {titulo.upper()} ".center(45))
     print("="*45 + "\n")
 
 def exibir_menu():
@@ -34,3 +34,26 @@ def exibir_historico(fila):
         while atual is not None:
             print(f"- {atual.dado}")
             atual = atual.proximo
+
+def solicitar_entrada_inteligente(sistema, mensagem):
+    entrada = input(mensagem).strip()
+    if not entrada:
+        return None
+        
+    if entrada.isdigit():
+        return int(entrada)
+        
+    sugestoes = sistema.buscar_sugestoes(entrada)
+    if not sugestoes:
+        print("Nenhuma figurinha encontrada com esse nome.")
+        return None
+        
+    print("\n--- Resultados Encontrados ---\n")
+    for fig in sugestoes:
+        print(fig)
+    print("="*45)
+    
+    id_escolhido = input("Digite o ID correspondente (ou aperte Enter para cancelar): ")
+    if id_escolhido.isdigit():
+        return int(id_escolhido)
+    return None
