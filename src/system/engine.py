@@ -55,3 +55,27 @@ class SistemaFigurinhas:
                 
         except ValueError:
             return False, "[ERRO] ID inválido."
+        
+    def realizar_troca_manual(self, id_oferecida, id_desejada):
+        fig_oferecida = self.repetidas.buscar_por_id(id_oferecida)
+        if not fig_oferecida:
+            return False, f"✕ Erro: Você não possui a figurinha #{id_oferecida} nas repetidas."
+            
+        if id_desejada not in self.catalogo_oficial:
+            return False, f"✕ Erro: A figurinha #{id_desejada} não existe no catálogo oficial."
+            
+        self.repetidas.remover(id_oferecida)
+        fig_cat = self.catalogo_oficial[id_desejada]
+        nova_fig = Figurinha(fig_cat.id, fig_cat.nome, fig_cat.pais)
+        
+        if self.album.buscar_por_id(id_desejada):
+            self.repetidas.adicionar(nova_fig)
+            msg_destino = "foi para suas repetidas"
+        else:
+            self.album.adicionar(nova_fig)
+            msg_destino = "foi colada no álbum"
+            
+        registro = f"MANUAL: Deu #{id_oferecida} ({fig_oferecida.nome}) por #{id_desejada} ({nova_fig.nome})."
+        self.historico.enqueue(registro)
+        
+        return True, f"✓ Sucesso! Você deu {fig_oferecida.nome} e recebeu {nova_fig.nome} ({msg_destino})."
