@@ -7,8 +7,7 @@ class SistemaFigurinhas:
         self.total_figurinhas = 994
         self.album = Album(total_album=self.total_figurinhas)       
         self.repetidas = Album(total_album=self.total_figurinhas)   
-        self.historico = Fila()                   
-        self.banca_trocas = Album(total_album=self.total_figurinhas) 
+        self.historico = Fila()                    
         
         self.catalogo_oficial = {} 
         self.carregar_catalogo_csv()
@@ -135,9 +134,9 @@ class SistemaFigurinhas:
         return True, mensagem_final
 
     def salvar_dados(self, arquivo="src/data/dados_copa.json"):
-        dados = {"album": [], "repetidas": [], "banca": [], "historico": []}
+        dados = {"album": [], "repetidas": [], "historico": []}
         
-        for lista, chave in [(self.album, "album"), (self.repetidas, "repetidas"), (self.banca_trocas, "banca")]:
+        for lista, chave in [(self.album, "album"), (self.repetidas, "repetidas")]:
             atual = lista.cabeca
             while atual:
                 dados[chave].append(atual.figurinha.to_dict())
@@ -152,3 +151,22 @@ class SistemaFigurinhas:
             json.dump(dados, f, ensure_ascii=False, indent=4)
         return True, f"Progresso salvo em {arquivo}."
     
+    def carregar_dados(self, arquivo="src/data/dados_copa.json"):
+        if not os.path.exists(arquivo):
+            return False, "Nenhum dado salvo encontrado. Iniciando álbum vazio."
+
+        with open(arquivo, 'r', encoding='utf-8') as f:
+            dados = json.load(f)
+            
+        self.album = Album(total_album=self.total_figurinhas)
+        self.repetidas = Album(total_album=self.total_figurinhas)
+        self.historico = Fila()
+
+        for fig in dados.get("album", []):
+            self.album.adicionar_carga(Figurinha(fig["id"], fig["nome"], fig["pais"], fig.get("quantidade", 1)))
+        for fig in dados.get("repetidas", []):
+            self.repetidas.adicionar_carga(Figurinha(fig["id"], fig["nome"], fig["pais"], fig.get("quantidade", 1)))
+        for reg in dados.get("historico", []):
+            self.historico.enqueue(reg)
+            
+        return True, "Dados do usuário carregados com sucesso!"
