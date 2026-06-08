@@ -79,3 +79,57 @@ class SistemaFigurinhas:
         self.historico.enqueue(registro)
         
         return True, f"✓ Sucesso! Você deu {fig_oferecida.nome} e recebeu {nova_fig.nome} ({msg_destino})."
+    
+    def realizar_troca_automatica(self):
+        if self.repetidas.tamanho == 0:
+            return False, "✕ Você não possui figurinhas repetidas."
+
+        total_repetidas = 0
+        atual = self.repetidas.cabeca
+        while atual is not None:
+            total_repetidas += atual.figurinha.quantidade
+            atual = atual.proximo
+
+        fila_faltantes = Fila()
+        for id_cat in range(1, self.total_figurinhas + 1):
+            if id_cat in self.catalogo_oficial and not self.album.buscar_por_id(id_cat):
+                fila_faltantes.enqueue(id_cat)
+                if fila_faltantes.tamanho == total_repetidas:
+                    break
+
+        if fila_faltantes.tamanho == 0:
+            return False, "★ Seu álbum já está 100% completo!"
+
+        relatorio_removidas = ""
+        qtd_trocada = fila_faltantes.tamanho
+        
+        for _ in range(qtd_trocada):
+            if self.repetidas.cabeca is not None:
+                id_topo = self.repetidas.cabeca.figurinha.id
+                fig_removida = self.repetidas.remover(id_topo)
+                
+                if relatorio_removidas != "":
+                    relatorio_removidas += "\n    "
+                relatorio_removidas += f"[-] Saiu: [#{fig_removida.id:03d}] {fig_removida.nome}"
+
+        relatorio_adicionadas = ""
+        atual_faltante = fila_faltantes.inicio
+        
+        while atual_faltante is not None:
+            fig_cat = self.catalogo_oficial[atual_faltante.dado]
+            nova_fig = Figurinha(fig_cat.id, fig_cat.nome, fig_cat.pais)
+            self.album.adicionar(nova_fig)
+            
+            if relatorio_adicionadas != "":
+                relatorio_adicionadas += "\n    "
+            relatorio_adicionadas += f"[+] Entrou: [#{nova_fig.id:03d}] {nova_fig.nome}"
+            
+            atual_faltante = atual_faltante.proximo
+
+        self.historico.enqueue(f"AUTO: Trocou {qtd_trocada} repetidas por inéditas.")
+        mensagem_final = (
+            f"✓ TROCA AUTOMÁTICA CONCLUÍDA ({qtd_trocada} figurinhas)!\n\n"
+            f"  RESUMO DAS SAÍDAS:\n    {relatorio_removidas}\n\n"
+            f"  RESUMO DAS ENTRADAS:\n    {relatorio_adicionadas}"
+        )
+        return True, mensagem_final
