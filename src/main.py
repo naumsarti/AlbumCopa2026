@@ -29,7 +29,7 @@ def main():
             pct = sistema.album.porcentagem_concluida()
             print(f"Progresso: {pct:.2f}% concluído")
             print(f"Figurinhas Únicas Coladas: {sistema.album.tamanho}/{sistema.total_figurinhas}")
-            print(f"Quantidade de Repetidas Guardadas: {sistema.repetidas.tamanho}")
+            print(f"Quantidade de Repetidas Guardadas: {sistema.repetidas.total_figurinhas()}")
             pausar()
 
         elif opcao == "4":

@@ -83,6 +83,14 @@ class Album:
 
     def porcentagem_concluida(self):
         return (self.tamanho / self.total_album) * 100
+    
+    def total_figurinhas(self):
+        total = 0
+        atual = self.cabeca
+        while atual is not None:
+            total += atual.figurinha.quantidade
+            atual = atual.proximo
+        return total
 
 class Fila:
     def __init__(self):
