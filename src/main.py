@@ -72,7 +72,7 @@ def main():
                 if entrada.isdigit():
                     id_oferecida = int(entrada)
                     print("\n-- Escolha a figurinha que quer RECEBER --")
-                    id_desejada = solicitar_entrada_inteligente(sistema, "Buscar por ID ou Nome: ")
+                    id_desejada = solicitar_entrada_inteligente(sistema, "\nBuscar por ID ou Nome: ")
                     
                     if id_desejada is not None:
                         sucesso, msg = sistema.realizar_troca_manual(id_oferecida, id_desejada)
@@ -88,6 +88,23 @@ def main():
                 
             else:
                 print("\n✕ Opção de troca inválida.")
+            pausar()
+
+        elif opcao == "7":
+            imprimir_cabecalho("Histórico de Trocas")
+            exibir_historico(sistema.historico)
+            pausar()
+
+        elif opcao == "8":
+            imprimir_cabecalho("Salvando Progresso...")
+            sucesso, msg = sistema.salvar_dados()
+            print(f"\n{msg}")
+            pausar()
+
+        elif opcao == "9":
+            imprimir_cabecalho("Carregando Progresso...")
+            sucesso, msg = sistema.carregar_dados()
+            print(f"\n{msg}")
             pausar()
 
         elif opcao == "0":
